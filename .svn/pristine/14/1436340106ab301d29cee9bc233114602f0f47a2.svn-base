@@ -1,0 +1,185 @@
+/* create Anhvv - 16.11.2020 */
+
+/* Margin - Padding */
+#list-tour .list-table .ant-card-body, #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td{
+    padding: 0;
+}
+#list-tour .list-table .ant-pro-table-list-toolbar{
+    padding: 0 24px;
+}
+#list-tour .list-table .ant-pro-table-list-toolbar-container{
+    padding: 18px 0;
+}
+#list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:not(:first-child){
+    padding-left: 9px;
+}
+#list-tour .list-table .ant-table-pagination-right{
+    padding: 0 23px;
+}
+#list-tour .ant-form-item-label{
+    padding-right: 16px
+}
+#list-tour .ant-form-item{
+    margin-bottom: 8px;
+}
+#list-tour .ant-col-10{
+    padding: 8px 36px 8px 8px;
+}
+#list-tour .ant-table.ant-table-middle .ant-table-thead > tr > th{
+    padding: 0;
+}
+#list-tour .ant-table.ant-table-middle .ant-table-tbody tr td p{
+    margin-bottom: 0;
+}
+
+
+/* Font - Color */
+#list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:nth-child(2){
+    color: #1890ff;
+}
+#list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td{
+    line-height: 2;
+}
+
+
+#list-tour .list-table label.ant-checkbox-wrapper{
+    padding: 0 21px;
+    border-radius: 100px;
+    border: 1px solid #b2b2b2;
+    color: #b2b2b2
+}
+
+/* Background */
+#list-tour .list-table label.ant-checkbox-wrapper-checked{
+    border: solid 1px #1890ff;
+    color: #1890ff
+}
+#list-tour .list-table .ant-table-thead > tr > th, #list-tour .list-table .ant-pro-table-list-toolbar-title{
+    font-weight: normal;
+}
+#list-tour input:-webkit-autofill,
+#list-tour input:-webkit-autofill:hover, 
+#list-tour input:-webkit-autofill:focus, 
+#list-tour input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+/* Height - Width */
+#list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:first-child{
+    width: 15px
+}
+#list-tour .expand{
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
+}
+#list-tour .collapse{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/* Other */
+#list-tour .list-table label .ant-checkbox, #list-tour .ant-form-item-label > label::after{
+    display: none;
+}
+#list-tour .line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 9px 0;
+}
+
+/* Responsive xs-sm*/
+@media (max-width: 578px){
+    #list-tour .time{
+        padding-left: 0 !important;
+    }
+    #list-tour .time-place{
+        float: inherit !important;
+    }
+    #list-tour .date-time{
+        padding-top: 8px;
+    }
+    #list-tour .button-filter button{
+        margin: 8px 8px 0 0 !important;
+    }
+    #list-tour .list-table label.ant-checkbox-wrapper{
+        padding: 0 10px;
+        margin: 4px;
+    }
+    #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:not(:first-child){
+        padding-left: 18px;
+    }
+    #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:first-child{
+        z-index: 3;
+    }
+    #list-tour .list-table .ant-table-pagination-right {
+        padding: 0;
+    }
+    #list-tour .expand,
+    #list-tour .collapse{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #list-tour .date-time .ant-picker{
+        width: 100%;
+    }
+    #list-tour .date-time .ant-form-item{
+        width: 50%;
+    }
+    #list-tour .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 9px 0;
+        
+    }
+    #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:nth-child(2){
+        max-width: 170px;
+    }
+}
+@media (min-width: 579px) and (max-width: 1024px){
+    #list-tour .expand {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #list-tour .collapse {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #list-tour .list-table label.ant-checkbox-wrapper{
+        margin: 4px;
+    }
+    #list-tour .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 9px 0;
+    }
+    #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:nth-child(2){
+        max-width: 170px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1600px){
+    #list-tour .collapse{
+        flex: 0 0 33.33333333% !important;
+        max-width: 33.33333333% !important;
+    }
+    #list-tour .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 9px 0;
+    }
+    #list-tour .list-table .ant-table.ant-table-middle .ant-table-tbody > tr > td:nth-child(2){
+        max-width: 170px;
+    }
+}

@@ -1,0 +1,64 @@
+.form-login .ant-input-prefix{
+    margin-right: 10px;
+}
+.form-login .ant-input-affix-wrapper-lg, 
+.register .ant-form-item-control-input-content input, 
+.log-in .forgot .ant-input-affix-wrapper,
+.log-in .form-OTP .ant-form-item-control-input-content input,
+.log-in .confirm-pass .ant-form-item-control-input-content input,
+.log-in .success-regis .ant-form-item-control-input-content input{
+    padding: 0 0 0 11px;
+    font-size: 16px;
+    height: 40px;
+}
+.form-login input:-webkit-autofill,
+.form-login input:-webkit-autofill:hover, 
+.form-login input:-webkit-autofill:focus, 
+.form-login input:-webkit-autofill:active,
+.register input:-webkit-autofill,
+.register input:-webkit-autofill:hover, 
+.register input:-webkit-autofill:focus, 
+.register input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* Update anhvv 07.12.2020 */
+
+/* Font-Border */
+.log-in .ant-tabs-tab .ant-tabs-tab-btn{
+    font-weight: 600;
+}
+
+/* Padding-Margin */
+.log-in .ant-tabs-top > .ant-tabs-nav{
+    margin: 0;
+}
+.log-in .ant-tabs-content-holder .form-register,.log-in .register .btn-register{
+    margin-top: 47px;
+}
+.log-in .register .btn-register span{
+    padding: 0 40px;
+}
+.log-in .forgot .anticon-mail{
+    margin-right: 8px;
+}
+.log-in .forgot .ant-form-item{
+    margin-bottom: 30px;
+}
+.register .ant-input-affix-wrapper{
+    padding: 0 11px;
+}
+/* Other */
+.log-in .register label:after {
+    content: '';
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .log-in .checkbox{
+        left: 0 !important;
+        float: left
+      }
+      .log-in .confirm{
+        float: none !important;
+      }
+}

@@ -1,0 +1,93 @@
+/* Create anhvv - 17.12.2020 */
+
+/* padding - margin */
+#account .main___MriAC .right___2uddC,
+#account .baseView___26ryu{
+    padding-top: 0;
+}
+#account .ant-upload-list-picture .ant-upload-list-item{
+    padding: 0;
+    margin-top: 10px;
+}
+#account .avatar_title___UqS4N{
+    padding: 0 0 8px 0
+}
+#account .ant-input-group-addon{
+    padding: 0 21px 0 12px;
+}
+/* height - width */
+#account .ant-upload-list-picture .ant-upload-list-item-thumbnail img,
+#account .ant-upload-list-picture .ant-upload-list-item-thumbnail,
+#account .ant-upload-list-picture .ant-upload-list-item{
+    width: 144px;
+    height: 144px;
+    border-radius: 100%;
+    top: 0;
+    left: 0
+}
+#account .ant-form-vertical input{
+    height: 40px
+}
+#account .ant-form-vertical textarea{
+    min-height: 94px
+}
+/* font - border */
+#account .ant-menu-item-selected{
+    border-right: 3px solid #1890ff
+}
+
+
+/* background - color */
+#account input:-webkit-autofill,
+#account input:-webkit-autofill:hover, 
+#account input:-webkit-autofill:focus, 
+#account input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+/* other */
+#account .title___2ApWw,
+#account .ant-upload-list-item-name{
+    display: none;
+}
+#account .ant-upload-list-picture{
+    display: flex;
+    justify-content: center;
+}
+#account .ant-upload-list-item-card-actions{
+    top: 55px;
+    right: -45px;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 768px){
+    #account .change-info{
+        display: block !important;
+    }
+    #account .form-info,
+    #account .avatar{
+        width: 100% !important
+    }
+    #account .avatar{
+        margin: 15px 0 25px;
+    }
+    #account .form-info, 
+    #account .change-pass,
+    #account .title-acc{
+        text-align: center;
+    }
+    #account .main___MriAC .right___2uddC{
+        padding: 15px;
+    }
+    #account .title-acc{
+        width: 50%;
+        float: left;
+    }
+    #account .ant-menu-item-selected{
+        border-bottom: 2px solid #1890ff;
+        border-right: none
+    }
+    #account .acc-change{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

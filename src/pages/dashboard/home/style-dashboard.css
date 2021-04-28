@@ -1,0 +1,169 @@
+/* Create Anhvv - 22/12/2020 */
+
+/* padding - margin */
+#dashboard .gridCard___2ha0_ p{
+    margin-bottom: 20px !important;
+}
+#dashboard .gridCard___2ha0_{
+    padding: 25px 30px !important;
+}
+#dashboard .salesBar___3D4Zf,
+#dashboard .salesRank___D-0-v{
+    padding: 14px !important;
+}
+#dashboard .ant-table-tbody td:not(:last-child){
+    padding: 6px !important;
+    margin: 3px 0;
+}
+#dashboard .table-tour{
+    margin-top: 15px;
+}
+#dashboard .table-tour td:first-child{
+    padding: 3px 5px !important
+}
+#dashboard .table-tour td:last-child{
+    padding: 0 !important;
+}
+#dashboard .chart-tour > div{
+    margin-top: 32px;
+}
+
+/* width - height */
+#dashboard .gridCard___2ha0_{
+    height: 141px
+}
+#dashboard .table-tour td:nth-child(2){
+    width: 223px;
+}
+
+#dashboard .table-tour td:nth-child(3){
+    width: 235px;
+}
+
+/* font - border */
+#dashboard .gridCard___2ha0_ label{
+    font-size: 48px;
+    line-height: 0.79
+}
+#dashboard .ant-table-tbody > tr > td{
+    border: none
+}
+#dashboard .rankingTitle___39C9o{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* color - background */
+#dashboard .anticon-right{
+    color: #5a5a5a;
+}
+#dashboard .table-tour td:last-child{
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* other */
+#dashboard .gridCard___2ha0_{
+    display: flex;
+}
+#dashboard .table-tour thead,
+#dashboard .highcharts-credits{
+    display: none
+}
+#dashboard .table-tour td:nth-child(2) a,
+#dashboard .table-tour td:nth-child(3) {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#dashboard .table-tour{
+    overflow-y: hidden;
+}
+#dashboard .table-tour td.date{
+    text-align: right ;
+}
+
+/* responsive */
+@media (min-width: 325px) and (max-width: 768px){
+    /* width - height */
+    #dashboard .img-card img{
+        width: 70px !important;
+    }
+    #dashboard .img-card{
+        width: 50% !important;
+    }
+    #dashboard .data-card{
+        width: 50% !important
+    }
+    #dashboard .gridCard___2ha0_{
+        height: 101px
+    }
+    #dashboard .table-tour td:nth-child(2){
+        max-width: 150px;
+    }
+    
+    #dashboard .table-tour td:nth-child(3){
+        max-width: 190px;
+    }
+
+    /* padding - margin */
+    #dashboard .gridCard___2ha0_ p {
+        margin-bottom: 8px !important;
+    }
+    #dashboard .gridCard___2ha0_ {
+        padding: 10px 22px !important;
+    }
+    #dashboard .card-tag .ant-col{
+        margin-bottom: 10px !important;
+    }
+    #dashboard .salesBar___3D4Zf, 
+    #dashboard .salesRank___D-0-v{
+        padding: 7px !important
+    }
+
+    /* font - border */
+    #dashboard .gridCard___2ha0_ label{
+        font-size: 40px;
+    }
+
+    /* other */
+    #dashboard .img-card{
+        text-align: center;
+    }
+    #dashboard .date-tour{
+        display: none;
+    }
+    #dashboard .table-tour td:nth-child(2) a,
+    #dashboard .table-tour td:nth-child(3) {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #dashboard .table-tour{
+        overflow-y: hidden;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1440px){
+    #dashboard .img-card{
+        width: 50% !important;
+    }
+    #dashboard .data-card{
+        width: 50% !important
+    }
+    #dashboard .table-tour td:nth-child(2){
+        max-width: 135px;
+        min-width: 120px;
+        width: auto;
+    }
+    
+    #dashboard .table-tour td:nth-child(3){
+        max-width: 160px;
+        min-width: 150px;
+        width: auto;
+    }
+}
